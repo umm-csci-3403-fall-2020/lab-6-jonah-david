@@ -6,6 +6,7 @@ setup() {
   rm -f echoserver/EchoServer.class
   javac echoserver/*.java
   java echoserver.EchoServer &
+  sleep 1
   cd ..
 }
 
